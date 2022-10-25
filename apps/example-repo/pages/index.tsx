@@ -13,6 +13,7 @@ const Home: NextPage = () => {
       </Head>
       <div>
         <h1>Monorepo example</h1>
+        <Button/>
       </div>
     </div>
   )
