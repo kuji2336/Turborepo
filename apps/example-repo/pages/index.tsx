@@ -3,6 +3,7 @@ import Head from 'next/head'
 import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 import { Button } from "ui";
+import { renderTwoNumberSum } from 'math-helpers';
 const Home: NextPage = () => {
   return (
     <div className={styles.container}>
@@ -12,7 +13,7 @@ const Home: NextPage = () => {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <div>
-        <h1>Monorepo example</h1>
+        <h1>Monorepo example {renderTwoNumberSum(5, 10)}</h1>
         <Button/>
       </div>
     </div>

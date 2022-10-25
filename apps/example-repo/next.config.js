@@ -1,6 +1,6 @@
 /** @type {import('next').NextConfig} */
 
-const withTM = require("next-transpile-modules")(["ui"]);
+const withTM = require("next-transpile-modules")(["ui", "math-helpers"]);
 
 const nextConfig = {
   reactStrictMode: true,
